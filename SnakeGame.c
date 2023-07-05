@@ -65,19 +65,19 @@ void input()
 {
 	if (kbhit()) {
 		switch (getch()) {
-		case 'a':
+		case 'a':		//to move towards left
 			flag = 1;
 			break;
-		case 's':
+		case 's':		//down wards
 			flag = 2;
-			break;
-		case 'd':
+			break;	
+		case 'd':		//towards right
 			flag = 3;
 			break;
-		case 'w':
+		case 'w':		//towards up
 			flag = 4;
 			break;
-		case 'x':
+		case 'x':		//gameover restart
 			gameover = 1;
 			break;
 		}
