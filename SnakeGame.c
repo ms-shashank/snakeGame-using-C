@@ -9,7 +9,7 @@ int i, j, height = 20, width = 20;
 int gameover, score;
 int x, y, fruitx, fruity, flag;
 
-// Function to generate the fruit
+// Function to generate the fruits
 // within the boundary
 void setup()
 {
